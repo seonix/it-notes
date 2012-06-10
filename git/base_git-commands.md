@@ -6,9 +6,21 @@
 
 Создание нового репозитория:
 
-```bash
-git init
-Initialized empty Git repository in /home/user/testdir/.git/
-```
+`git init`
 
+Получение репозитория:
 
+`git clone /путь/к/репозиторию`
+`git clone юзер@хост:/путь/к/репозиторию`
+
+Индексация и коммит
+-------------------
+
+Индексация изменений:
+
+`git add <file>`
+`git add .`
+
+Коммит:
+
+`git commit -m "описание коммита"`
